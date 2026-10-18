@@ -17,18 +17,18 @@ and create [detection rules](./06_FINAL_REPORT/detection_rules/suricata.md).
 
 ## Investigation Workflow
 
-1. Case information and investigation scope [↗️](./01_CASE_INFORMATION/README.md)
+1. Case information and investigation scope [🔗](./01_CASE_INFORMATION/README.md)
 2. Network analysis:
-   - Triage and traffic overview
-   - DNS and HTTP analysis
-   - File extraction
+   - Triage and traffic overview [🔗](./02_NETWORK_ANALYSIS/triage.md)
+   - DNS and HTTP analysis [🔗](./02_NETWORK_ANALYSIS/dns_http_analysis.md)
+   - File extraction [🔗](./02_NETWORK_ANALYSIS/extracted_files.md)
 3. Malware analysis:
-   - Static analysis of the malicious document (macro, obfuscation)
-   - Static analysis of the executable (PE, metadata, strings)
-   - Dynamic analysis (isolated sandbox execution)
-4. Threat intelligence enrichment (IOCs, MITRE ATT&CK mapping)
-5. Impact assessment
-6. Final report and detection rules
+   - Static analysis of the malicious document (macro, obfuscation) [🔗](./03_MALWARE_ANALYSIS/doc3134_static_analysis.md)
+   - Static analysis of the executable (PE, metadata, strings) [🔗](./03_MALWARE_ANALYSIS/rfruanxyl_static_analysis.md)
+   - Dynamic analysis (isolated sandbox execution) [🔗](./03_MALWARE_ANALYSIS/doc3134_dynamic_analysis.md)
+4. Threat intelligence enrichment (IOCs [🔗](./04_THREAT_INTEL/IOC_table.md), MITRE ATT&CK mapping [🔗](./04_THREAT_INTEL/mitre_attack_mapping.md))
+5. Impact assessment [🔗](./05_IMPACT_ASSESSMENT/README.md)
+6. Final report and detection rules [🔗](./06_FINAL_REPORT/README.md)
 
 ## Key Findings
 
