@@ -17,7 +17,7 @@ and create [detection rules](./06_FINAL_REPORT/detection_rules/suricata.md).
 
 ## Investigation Workflow
 
-1. Case information and investigation scope
+1. Case information and investigation scope [*](./01_CASE_INFORMATION/README.md)
 2. Network analysis:
    - Triage and traffic overview
    - DNS and HTTP analysis
