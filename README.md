@@ -12,7 +12,7 @@ infection chain.
 
 The objective was to identify suspicious network activity, decode the 
 infection mechanism through static and dynamic malware analysis, extract 
-[indicators of compromise (IOCs)](./04_THREAT_INTEL/IOC_table), enrich findings with threat intelligence, 
+[indicators of compromise (IOCs)](./04_THREAT_INTEL/IOC_table.md), enrich findings with threat intelligence, 
 and create detection rules.
 
 ## Investigation Workflow
