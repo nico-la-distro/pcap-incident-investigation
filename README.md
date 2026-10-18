@@ -25,7 +25,7 @@ and create [detection rules](./06_FINAL_REPORT/detection_rules/suricata.md).
 3. Malware analysis:
    - Static analysis of the malicious document (macro, obfuscation) [🔗](./03_MALWARE_ANALYSIS/doc3134_static_analysis.md)
    - Static analysis of the executable (PE, metadata, strings) [🔗](./03_MALWARE_ANALYSIS/rfruanxyl_static_analysis.md)
-   - Dynamic analysis (isolated sandbox execution) [🔗](./03_MALWARE_ANALYSIS/doc3134_dynamic_analysis.md)
+   - Dynamic analysis (isolated sandbox execution) [🔗](./03_MALWARE_ANALYSIS/rfruanxyl_dynamic_analysis.md)
 4. Threat intelligence enrichment (IOCs [🔗](./04_THREAT_INTEL/IOC_table.md), MITRE ATT&CK mapping [🔗](./04_THREAT_INTEL/mitre_attack_mapping.md))
 5. Impact assessment [🔗](./05_IMPACT_ASSESSMENT/README.md)
 6. Final report and detection rules [🔗](./06_FINAL_REPORT/README.md)
