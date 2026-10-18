@@ -33,13 +33,13 @@ and create [detection rules](./06_FINAL_REPORT/detection_rules/suricata.md).
 ## Key Findings
 
 - `Doc3134.doc` delivers an obfuscated macro that auto-executes and drops 
-  `rFrUanXYL.exe` via PowerShell
+  `rFrUanXYL.exe` via PowerShell [🔎](./03_MALWARE_ANALYSIS/doc3134_static_analysis.md)
 - `rFrUanXYL.exe` copies itself as `paramvolume.exe` and self-deletes 
-  (anti-forensic behavior)
+  (anti-forensic behavior) [🔎](./03_MALWARE_ANALYSIS/rfruanxyl_dynamic_analysis.md)
 - Metadata impersonates a legitimate Microsoft tool (masquerading)
 - C2 capability confirmed via external sandbox data, matching an IP/port 
   observed in the original capture
-- Multiple IOCs identified: domains, IP addresses, file hashes
+- Multiple IOCs identified: domains, IP addresses, file hashes [🔎](./04_THREAT_INTEL/IOC_table.md)
 
 ## Tools Used
 
